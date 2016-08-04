@@ -1,0 +1,40 @@
+@mixin dynamic-sprite($width, $items, $item_height, $sprite, $float){
+	$ulheight:($width * $item_height)/100*$items;
+	list-style: none;
+	min-height: $ulheight;
+	li{
+		$height:($width * $item_height)/100;
+		display: block;
+		padding-bottom: 3px;
+		font-size: 18px;
+		font-family: 'garde-gothic-regular';
+		letter-spacing: 0.75;
+		color:#fff;
+		text-decoration: none;
+		text-transform: capitalize;
+		float: $float;
+		&:before{
+			margin-right: 5px;
+			content: '';	
+			width: $width;
+			height: $height;
+			background-image: url('../images/#{$sprite}');
+			background-size: ($width * 10 ) $height;
+			display: block;
+			margin-top: 4px;
+		}
+		&:hover{
+			text-decoration: underline;
+		}
+		&.active{
+			text-decoration: underline;
+		}
+		@for $i from 2 through $items {
+			&:nth-child(#{$i}){
+				&:before{
+					background-position: -($width * ($i - 1));
+				}
+			}
+		}
+	}
+}
