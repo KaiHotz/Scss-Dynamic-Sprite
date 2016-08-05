@@ -7,7 +7,6 @@
 		display: block;
 		padding-bottom: 3px;
 		font-size: 18px;
-		font-family: 'garde-gothic-regular';
 		letter-spacing: 0.75;
 		color:#fff;
 		text-decoration: none;
@@ -18,7 +17,7 @@
 			content: '';	
 			width: $width;
 			height: $height;
-			background-image: url('../images/#{$sprite}');
+			background-image: url('#{$sprite}');
 			background-size: ($width * 10 ) $height;
 			display: block;
 			margin-top: 4px;

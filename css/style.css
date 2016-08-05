@@ -1,6 +1,6 @@
 ul { list-style: none; min-height: 201px; }
 
-ul li { display: block; padding-bottom: 3px; font-size: 18px; font-family: 'garde-gothic-regular'; letter-spacing: 0.75; color: #fff; text-decoration: none; text-transform: capitalize; float: "right"; }
+ul li { display: block; padding-bottom: 3px; font-size: 18px; letter-spacing: 0.75; color: #fff; text-decoration: none; text-transform: capitalize; float: "right"; }
 
 ul li:before { margin-right: 5px; content: ''; width: 30px; height: 20.1px; background-image: url("../images/sprite_flags.png"); background-size: 300px 20.1px; display: block; margin-top: 4px; }
 
