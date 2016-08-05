@@ -6,12 +6,10 @@
 		$height:($width * $item_height)/100;
 		display: block;
 		padding-bottom: 3px;
-		font-size: 18px;
-		letter-spacing: 0.75;
 		color:#fff;
 		text-decoration: none;
 		text-transform: capitalize;
-		float: $float;
+		float: #{$float};
 		&:before{
 			margin-right: 5px;
 			content: '';	
