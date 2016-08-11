@@ -4,7 +4,7 @@
 
 @include dynamic-sprite(50px, 10, 67, 'path to sprite.png', 'left'); 
 
-params: dynamic-sprite(width , Nr. of images, height of srite.png, path to sprite.png, dirrection to float)
+params: dynamic-sprite(width , Nr. of images, height of srite.png, path to sprite.png, direction to float)
 
 ##Importan:
 
