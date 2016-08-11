@@ -1,27 +1,83 @@
-ul { list-style: none; min-height: 335px; }
+ul.left { padding: 0px; list-style: none; height: auto; overflow: hidden; }
 
-ul li { display: block; padding-bottom: 3px; color: #fff; text-decoration: none; text-transform: capitalize; float: left; }
+ul.left li { display: block; padding-bottom: 3px; color: #fff; text-decoration: none; text-transform: capitalize; float: left; }
 
-ul li:before { margin-right: 5px; content: ''; width: 50px; height: 33.5px; background-image: url("../images/sprite_flags.png"); background-size: 500px 33.5px; display: block; margin-top: 4px; }
+ul.left li:before { margin-right: 5px; content: ''; width: 50px; height: 33.5px; background-image: url("../images/sprite_flags.png"); background-size: 500px 33.5px; display: block; margin-top: 4px; }
 
-ul li:hover { text-decoration: underline; }
+ul.left li:hover { text-decoration: underline; }
 
-ul li.active { text-decoration: underline; }
+ul.left li.active { text-decoration: underline; }
 
-ul li:nth-child(2):before { background-position: -50px; }
+ul.left li:nth-child(2):before { background-position: -50px; }
 
-ul li:nth-child(3):before { background-position: -100px; }
+ul.left li:nth-child(3):before { background-position: -100px; }
 
-ul li:nth-child(4):before { background-position: -150px; }
+ul.left li:nth-child(4):before { background-position: -150px; }
 
-ul li:nth-child(5):before { background-position: -200px; }
+ul.left li:nth-child(5):before { background-position: -200px; }
 
-ul li:nth-child(6):before { background-position: -250px; }
+ul.left li:nth-child(6):before { background-position: -250px; }
 
-ul li:nth-child(7):before { background-position: -300px; }
+ul.left li:nth-child(7):before { background-position: -300px; }
 
-ul li:nth-child(8):before { background-position: -350px; }
+ul.left li:nth-child(8):before { background-position: -350px; }
 
-ul li:nth-child(9):before { background-position: -400px; }
+ul.left li:nth-child(9):before { background-position: -400px; }
 
-ul li:nth-child(10):before { background-position: -450px; }
+ul.left li:nth-child(10):before { background-position: -450px; }
+
+ul.right { padding: 0px; list-style: none; height: auto; overflow: hidden; }
+
+ul.right li { display: block; padding-bottom: 3px; color: #fff; text-decoration: none; text-transform: capitalize; float: right; }
+
+ul.right li:before { margin-right: 5px; content: ''; width: 30px; height: 20.1px; background-image: url("../images/sprite_flags.png"); background-size: 300px 20.1px; display: block; margin-top: 4px; }
+
+ul.right li:hover { text-decoration: underline; }
+
+ul.right li.active { text-decoration: underline; }
+
+ul.right li:nth-child(2):before { background-position: -30px; }
+
+ul.right li:nth-child(3):before { background-position: -60px; }
+
+ul.right li:nth-child(4):before { background-position: -90px; }
+
+ul.right li:nth-child(5):before { background-position: -120px; }
+
+ul.right li:nth-child(6):before { background-position: -150px; }
+
+ul.right li:nth-child(7):before { background-position: -180px; }
+
+ul.right li:nth-child(8):before { background-position: -210px; }
+
+ul.right li:nth-child(9):before { background-position: -240px; }
+
+ul.right li:nth-child(10):before { background-position: -270px; }
+
+ul.none { padding: 0px; list-style: none; height: auto; overflow: hidden; }
+
+ul.none li { display: block; padding-bottom: 3px; color: #fff; text-decoration: none; text-transform: capitalize; float: none; }
+
+ul.none li:before { margin-right: 5px; content: ''; width: 50px; height: 33.5px; background-image: url("../images/sprite_flags.png"); background-size: 500px 33.5px; display: block; margin-top: 4px; }
+
+ul.none li:hover { text-decoration: underline; }
+
+ul.none li.active { text-decoration: underline; }
+
+ul.none li:nth-child(2):before { background-position: -50px; }
+
+ul.none li:nth-child(3):before { background-position: -100px; }
+
+ul.none li:nth-child(4):before { background-position: -150px; }
+
+ul.none li:nth-child(5):before { background-position: -200px; }
+
+ul.none li:nth-child(6):before { background-position: -250px; }
+
+ul.none li:nth-child(7):before { background-position: -300px; }
+
+ul.none li:nth-child(8):before { background-position: -350px; }
+
+ul.none li:nth-child(9):before { background-position: -400px; }
+
+ul.none li:nth-child(10):before { background-position: -450px; }

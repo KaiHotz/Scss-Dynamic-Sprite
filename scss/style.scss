@@ -4,6 +4,13 @@
 
 //attributes : desired image width with px, Nr. of Items on Sprite , Height of Sprite without px, Name of Sprite file, dirrection to float li
 ul{
-	@include dynamic-sprite(50px, 10, 67, '../images/sprite_flags.png', 'left'); 
+	&.left{
+		@include dynamic-sprite(50px, 10, 67, '../images/sprite_flags.png', 'left'); 
+	}
+	&.right{
+		@include dynamic-sprite(30px, 10, 67, '../images/sprite_flags.png', 'right'); 
+	}
+	&.none{
+		@include dynamic-sprite(50px, 10, 67, '../images/sprite_flags.png', 'none'); 
+	}
 }
-

@@ -1,7 +1,8 @@
 @mixin dynamic-sprite($width, $items, $item_height, $sprite, $float){
-	$ulheight:($width * $item_height)/100*$items;
+	padding: 0px;
 	list-style: none;
-	min-height: $ulheight;
+	height: auto;
+	overflow: hidden;
 	li{
 		$height:($width * $item_height)/100;
 		display: block;
