@@ -10,7 +10,7 @@ Eg.:
 
 ##Importan:
 
-The param for the height of the sprite.png image is in px but dosen't go withe the actual px statement, Just the number value.
+The 3rd param that is for the height of the sprite.png image is in px but dosen't go withe the actual px statement, Just the number value.
 
 ## Example
 
